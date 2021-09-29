@@ -1,0 +1,9 @@
+/* This is a CSS file */
+* {
+	font-family: Georgia, "Georgia", sans-serif;}
+/* Tell all the p tags on the page to be Georgia
+	With back up of sans-serif,
+	With back of monospace*/
+	
+em {
+	color: darkgray;}
