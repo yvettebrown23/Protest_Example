@@ -1,2 +1,2 @@
-# Protest_Ex_1
+# Protest_Example
 HTML example of protest
