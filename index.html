@@ -1,37 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="main_1.css">
 	<meta charset="utf-8">
-	<title>Protests</title>
+
+  <!-- first step to a responsive site --> 
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Page title -->
+	<title>Bronx CB 6 Complaints</title>
+
+ 	<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+
+	<!-- link style sheet here -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-
-
+<!-- content starts here -->
 <body>
+<article>
+    <div class="container">
+	<h1>Top Complaints In Bronx CB 6</h1>
+      <h4>By: Yvette Brown</h4>
+      <h5>Oct. 15, 2021</h5>
+  </div>
 
-<h1> Five Largest Protests In U.S. History </h1>
-
-<figure>
-
-   <img src="protests.jpeg" alt= "protestors"> <figcaption class="p1">Protesters in Minneapolis on May 28, 2020, three days after the killing of George Floyd.</figcaption>
-
-</figure>
-
-<p class="p1"> The tradition of protests that demand progressive change in the United States continue. </p>
-
-<p class="p1"> Here are the country's five of the top protests in terms of attendance: </p>
-
-<ol>
-	<li><a href="https://en.wikipedia.org/wiki/George_Floyd_protests">George Floyd protests</a> nationwide in 2020 with an estimated 26 million protestors.</li>
-	<li><a href="https://en.wikipedia.org/wiki/2017_Women%27s_March">Women's March</a> in 2017 drew about 5.6 million people nationwide.</li>
-    <li><a href="https://en.wikipedia.org/wiki/March_for_Our_Lives">March for Our Lives</a> a student led protest in 2018 against gun violence, drew about 2 million people.</li>
-    <li><a href="https://en.wikipedia.org/wiki/2018_Women%27s_March">Women's March</a> in 2018 drew about 1.5 million protestors.</li>
-    <li><a href="https://en.wikipedia.org/wiki/March_on_Washington_for_Lesbian,_Gay_and_Bi_Equal_Rights_and_Liberation">March on Washington for Lesbian, Gay and Bi Equal Rights and Liberation</a> drew about 1 million in 1993.</li>
+<div class="container photo">
+    <figure class="top_image">
+        <img src="images/Map_CB6.png" alt="map image">
+        <figcaption>A map of Bronx Community Board 6, which covers Belmont, Tremont and West Farms.</figcaption>
+    </figure>
+  </div>
 
 
-<h6>Copied from Wikipedia </h6>
+<div class="container">
+<p>Littered filled sidewalks of garbage and needles was one of the topics that was discussed at the Bronx Community Board six meeting on Wednesday.</p> 
 
+<p>On the cross streets of Tremont and Belmont Avenue, residents have taken photos and videos of the egregious conditions.  Many of the residents of the area have complained to building managers and they have now taken their complaints to the board meeting, where elected officials were present like Assemblymember Chantel Jackson (D).  Some officials have agreed to coordinate with sanitation to clean up the piles of garbage and needles that were scattered throughout the street.</p>
 
+<p>However, when it comes to the conditions and quality of life for Bronx Community Board six, it seems as though the garbage is not the only issue.  According to the residents of the community, loud music, lack of heat and hot water and banging and pounding are some of the most recent complaints.</p>
+</div>
+ 
+
+	<!--ADD FLEX HERE-->
+
+	<h3 class="container">Top Complaints in Bronx CB 6</h3>
+
+		<div class="icon">
+        	<div class="flex">
+
+		<div class="container3">
+            <img class="icon" src="images/Pounding.png">
+            <p>188 calls were placed to 311, at the beginning of the year, regarding banging and pounding in residential and commercial buildings.  In August, only 91 calls were placed to 311.</p>
+          </div>
+
+          <div class="container3">
+            <img class="icon" src="images/Garbage.png">
+            <p> While garbage complaints were the main topic of discussion during the community board, it was not one of the top complaints called into 311.  311 reports 1,828 complaints regarding garbage and recycling storage and 430 complaints regarding garbage and litter.</p>
+          </div>
+
+          <div class="container3">
+            <img class="icon" src="images/Heat.png">
+            <p>Lack  of heat/hot water in residential buildings was another major complaint.  In February, 465 residents called 311 to report the issue, the highest number of complaints this year due to the changing season.  However, once the complaints were called in, it still took at least two to three days for the issue to be fixed.</p>
+          </div>
+
+          <div class="container3">
+            <img class="icon" src="images/loud_music.png">
+            <p>Residents complained the most about loud music.  The bulk of the complaints happened in July 2020, which consisted of 1,233 complaints to 311.  As of last month, there were only 709 calls placed to 311 regarding loud music coming from residents, cars and people on the sidewalk.</p>
+          </div>
+
+      </div>
+  </div>
+
+</article>
+
+<footer class="container">
+    <p>Data source: <a href="https://data.cityofnewyork.us/d/erm2-nwe9/visualization">NYC | Open Data</a> conducted from 2010 to present</p>
+  </footer>
 </body>
 </html>
